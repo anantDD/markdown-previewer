@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: #c8e6c9;
+}
+
+#previewC,
+#editorC {
+  border: solid 1px #bdbdbd;
+  background-color: white;
+  min-height: 300px;
+  margin-top: 10px;
+}
+
+#editor {
+  width: 100%;
+  min-height: 300px;
+  /* margin-left: 3px; */
+  /* height: -webkit-fill-available; */
+  padding: 1em;
+}
+
+#preview {
+  padding: 1em;
+}
+
+#previewer {
+  padding: 1em;
+}
+
+.editorHeading,
+.previewerHeading {
+  background-color: #388e3c;
+  color: white;
+  width: 100%;
+  margin: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  #previewC,
+  #editorC {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+  }
+  #editorC {
+    margin-left: 10%;
+    width: 30%;
+  }
+  #previewC {
+    margin-left: 10%;
+    width: 40%;
+  }
+}
